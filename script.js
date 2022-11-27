@@ -62,6 +62,7 @@ function restart() {
   document.querySelector(".btn-check").style.opacity = 1;
   document.querySelector("body").style.backgroundColor = "#222222";
   document.querySelector(".btn-check").style.cursor = "pointer";
+  document.querySelector(".spinner").value = "";
 }
 
 document.querySelector(".btn-check").addEventListener("click", checkAnswer);
