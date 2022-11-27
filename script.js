@@ -3,6 +3,7 @@
 let answer = Math.round(Math.random() * 20);
 console.log(answer);
 
+document.querySelector(".spinner").value = "";
 let choice = Number(document.querySelector(".spinner").value);
 
 let score = Number(document.querySelector(".score").textContent);
