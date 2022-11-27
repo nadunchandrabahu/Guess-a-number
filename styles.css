@@ -1,0 +1,120 @@
+body {
+  background-color: #222222;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  margin: 0px;
+}
+
+.header {
+  display: block;
+  border-bottom-color: white;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  padding-bottom: 65px;
+}
+
+.btn-Again {
+  padding: 20px 30px;
+  margin-top: 18px;
+  margin-left: 18px;
+  font-size: 19.5px;
+  border-radius: 0px;
+  border: none;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 14px;
+}
+
+.between {
+  font-size: 14px;
+  margin-right: 18px;
+  margin-top: 18px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  background-color: #eee;
+  color: #333;
+  margin: -60px 0;
+  margin-top: -72px;
+  font-size: 60px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: inline-block;
+  width: 520px;
+  text-align: center;
+}
+.right {
+  display: inline-block;
+  text-align: left;
+  width: 520px;
+}
+
+.input-display {
+  padding-top: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.spinner-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  background-color: #222222;
+  border-style: solid;
+  border-width: 4px;
+  text-align: center;
+  color: #eee;
+  display: block;
+  font-size: 48px;
+  font-family: "Press Start 2P", cursive;
+  padding: 25px 25px;
+  width: 190px;
+}
+
+.btn-check {
+  align-items: center;
+  padding: 20px 30px;
+  margin-top: 28px;
+  font-size: 19.5px;
+  border-radius: 0px;
+  border: none;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 30px;
+  margin-bottom: 84px;
+}
+
+.label-score,
+.score,
+.message,
+.label-highscore,
+.highscore {
+  font-size: 20px;
+}

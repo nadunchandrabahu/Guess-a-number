@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess My Number!</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top">
+        <button class="btn-Again">Again!</button>
+        <p class="between">(Between 1 and 20)</p>
+      </div>
+      <h1>Guess My Number!</h1>
+    </div>
+
+    <div class="number-wrapper">
+      <p class="number">?</p>
+    </div>
+
+    <div class="input-display">
+      <section class="left">
+        <div class="spinner-holder">
+          <input class="spinner" type="number" />
+        </div>
+        <button class="btn-check">Check!</button>
+      </section>
+
+      <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">10</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
